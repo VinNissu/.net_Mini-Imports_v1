@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "771dbf9e-dec0-4b94-b88d-b0443c277594": {
+      "ProjectGuid": "771dbf9e-dec0-4b94-b88d-b0443c277594",
+      "DisplayName": "mini-imports",
+      "ColorIndex": 0
+    },
+    "a42c192e-71d4-4fe4-9d41-ac55a9b3cad2": {
+      "ProjectGuid": "a42c192e-71d4-4fe4-9d41-ac55a9b3cad2",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    },
+    "73e84f4b-4e5f-4b5f-8fa5-aac65c791762": {
+      "ProjectGuid": "73e84f4b-4e5f-4b5f-8fa5-aac65c791762",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 2
+    },
+    "1c1b56fd-b818-4dc8-85fb-7c685e8c0681": {
+      "ProjectGuid": "1c1b56fd-b818-4dc8-85fb-7c685e8c0681",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 3
+    },
+    "40977efb-a3ca-40a2-b954-9bc21a75ea72": {
+      "ProjectGuid": "40977efb-a3ca-40a2-b954-9bc21a75ea72",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 4
+    },
+    "0b616229-81aa-4fa0-945e-ff1e7ec887fe": {
+      "ProjectGuid": "0b616229-81aa-4fa0-945e-ff1e7ec887fe",
+      "DisplayName": "tela.cs",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}

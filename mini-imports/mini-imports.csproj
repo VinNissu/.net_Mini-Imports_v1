@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{771DBF9E-DEC0-4B94-B88D-B0443C277594}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>mini_imports</RootNamespace>
+    <AssemblyName>mini-imports</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="mini_imports_realDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mini_imports_realDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pesquisarFeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pesquisarFeed.Designer.cs">
+      <DependentUpon>pesquisarFeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alterarFor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alterarFor.Designer.cs">
+      <DependentUpon>alterarFor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alterarFun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alterarFun.Designer.cs">
+      <DependentUpon>alterarFun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alterarProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alterarProd.Designer.cs">
+      <DependentUpon>alterarProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="backup.Designer.cs">
+      <DependentUpon>backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadfun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadfun.Designer.cs">
+      <DependentUpon>cadfun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadfor.Designer.cs">
+      <DependentUpon>cadfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadprod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadprod.Designer.cs">
+      <DependentUpon>cadprod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ctrlestoq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ctrlestoq.Designer.cs">
+      <DependentUpon>ctrlestoq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feedback.Designer.cs">
+      <DependentUpon>feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="encomend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="encomend.Designer.cs">
+      <DependentUpon>encomend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="encomendados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="encomendados.Designer.cs">
+      <DependentUpon>encomendados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loading.Designer.cs">
+      <DependentUpon>loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pesquisaesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pesquisaesto.Designer.cs">
+      <DependentUpon>pesquisaesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pesquisafun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pesquisafun.Designer.cs">
+      <DependentUpon>pesquisafun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pesquisaprod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pesquisaprod.Designer.cs">
+      <DependentUpon>pesquisaprod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pesquisarfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pesquisarfor.Designer.cs">
+      <DependentUpon>pesquisarfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="regivend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="regivend.Designer.cs">
+      <DependentUpon>regivend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="pesquisarFeed.resx">
+      <DependentUpon>pesquisarFeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alterarFor.resx">
+      <DependentUpon>alterarFor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alterarFun.resx">
+      <DependentUpon>alterarFun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alterarProd.resx">
+      <DependentUpon>alterarProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="backup.resx">
+      <DependentUpon>backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadfun.resx">
+      <DependentUpon>cadfun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadfor.resx">
+      <DependentUpon>cadfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadprod.resx">
+      <DependentUpon>cadprod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrlestoq.resx">
+      <DependentUpon>ctrlestoq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feedback.resx">
+      <DependentUpon>feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="encomend.resx">
+      <DependentUpon>encomend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="encomendados.resx">
+      <DependentUpon>encomendados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loading.resx">
+      <DependentUpon>loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pesquisaesto.resx">
+      <DependentUpon>pesquisaesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pesquisafun.resx">
+      <DependentUpon>pesquisafun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pesquisaprod.resx">
+      <DependentUpon>pesquisaprod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pesquisarfor.resx">
+      <DependentUpon>pesquisarfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="regivend.resx">
+      <DependentUpon>regivend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="mini_imports_realDataSet.xsc">
+      <DependentUpon>mini_imports_realDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="mini_imports_realDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mini_imports_realDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mini_imports_realDataSet.xss">
+      <DependentUpon>mini_imports_realDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
