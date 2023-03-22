@@ -15,12 +15,12 @@ namespace mini_imports
         public loading()
         {
             InitializeComponent();
-            pbar.Parent = pictureBox1;
+            pbar.Parent = pictureBox2;
             pbar.BackColor = Color.Transparent;
             pbar.Value = 0;
 
 
-            lblCarregando.Parent = pictureBox1;
+            lblCarregando.Parent = pictureBox2;
             lblCarregando.BackColor = Color.Transparent;
 
         }
@@ -81,6 +81,11 @@ namespace mini_imports
         }
 
         private void pbar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblCarregando_Click(object sender, EventArgs e)
         {
 
         }

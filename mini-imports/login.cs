@@ -134,21 +134,12 @@ namespace mini_imports
                         return;
                     }
 
-                    this.Visible = false;
-                    menu newmenu = new menu();
-                    newmenu.ShowDialog();
+                    menu frl = new menu();
+                    this.Hide();
+                    frl.Show();
 
                 }
             }
-
-
-
-
-
-
-            menu outroform = new menu();
-            this.Hide();
-            outroform.ShowDialog();
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)

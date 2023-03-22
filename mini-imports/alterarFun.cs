@@ -48,6 +48,13 @@ namespace mini_imports
             // TODO: esta linha de código carrega dados na tabela 'mini_imports_realDataSet.cadastrarFuncionarios'. Você pode movê-la ou removê-la conforme necessário.
             this.cadastrarFuncionariosTableAdapter.Fill(this.mini_imports_realDataSet.cadastrarFuncionarios);
 
+            this.cadastrarFuncionariosTableAdapter.Fill(this.mini_imports_realDataSet.cadastrarFuncionarios);
+            if (Class1.codigo == "")//
+            { cadastrarFuncionariosBindingSource.AddNew(); }//
+            else//
+            { cadastrarFuncionariosBindingSource.Filter = string.Format("cadFun_id={0}", Class1.codigo); }// textBox1.Text); }
+
+
         }
 
         private void button5_Click(object sender, EventArgs e)

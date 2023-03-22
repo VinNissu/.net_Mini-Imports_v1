@@ -69,11 +69,6 @@ namespace mini_imports
 
         private void cadprod_Load(object sender, EventArgs e)
         {
-            // TODO: esta linha de código carrega dados na tabela 'mini_imports_realDataSet.CadastrarProdutos'. Você pode movê-la ou removê-la conforme necessário.
-            this.cadastrarProdutosTableAdapter.Fill(this.mini_imports_realDataSet.CadastrarProdutos);
-            // TODO: esta linha de código carrega dados na tabela 'mini_imports_realDataSet.CadastrarProdutos'. Você pode movê-la ou removê-la conforme necessário.
-            this.cadastrarProdutosTableAdapter.Fill(this.mini_imports_realDataSet.CadastrarProdutos);
-
 
             // TODO: esta linha de código carrega dados na tabela 'mini_imports_realDataSet.CadastrarProdutos'. Você pode movê-la ou removê-la conforme necessário.
             this.cadastrarProdutosTableAdapter.Fill(this.mini_imports_realDataSet.CadastrarProdutos);
@@ -89,8 +84,9 @@ namespace mini_imports
         private void button11_Click(object sender, EventArgs e)
         {
             pesquisaprod frl = new pesquisaprod();
+            this.Hide();
             frl.Show();
-            this.Visible = false;
+
         }
     }
 }

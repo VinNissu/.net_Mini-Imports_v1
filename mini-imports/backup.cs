@@ -25,6 +25,25 @@ namespace mini_imports
             InitializeComponent();
         }
 
+        private void ClearAllBoxes()
+        {
+            Action<Control.ControlCollection> func = null;
+            func = (controls) =>
+            {
+                foreach (Control control in controls)
+                {
+
+                    if (control is TextBox || control is ComboBox)
+                    {
+                        control.ResetText();
+                    }
+                    else
+                        func(control.Controls);
+                }
+            };
+            func(Controls);
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
@@ -57,7 +76,6 @@ namespace mini_imports
                 button3.Enabled = true;
                 comboBox1.Enabled = true;
                 button6.Enabled = false;
-                button8.Enabled = true;
                 button4.Enabled = true;
                 button5.Enabled = true;
                 button3.Enabled = false;
@@ -165,9 +183,36 @@ namespace mini_imports
             button4.Enabled = false;
             button5.Enabled = false;
             comboBox1.Enabled = false;
-            button6.Enabled = false;
-            button8.Enabled = false;
+            button1.Enabled = false;
+            button7.Enabled = false;
 
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            menu frl = new menu();
+            this.Hide();
+            frl.ShowDialog();
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            ClearAllBoxes();
         }
     }
 }

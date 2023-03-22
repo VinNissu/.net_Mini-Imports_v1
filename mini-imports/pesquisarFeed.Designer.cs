@@ -85,7 +85,6 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "LIMPAR";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.UseWaitCursor = true;
             // 
             // button1
             // 
@@ -100,7 +99,6 @@
             this.button1.TabIndex = 12;
             this.button1.Text = "VOLTAR";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
@@ -166,7 +164,6 @@
             this.button2.TabIndex = 24;
             this.button2.Text = "PESQUISAR";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.UseWaitCursor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label2
@@ -217,7 +214,6 @@
             this.button4.TabIndex = 20;
             this.button4.Text = "PESQUISAR";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.UseWaitCursor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // dataGridView1
@@ -233,7 +229,7 @@
             this.dataGridView1.DataSource = this.feedbackClientesBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(121, 199);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(589, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(541, 150);
             this.dataGridView1.TabIndex = 13;
             // 
             // feedbackidDataGridViewTextBoxColumn

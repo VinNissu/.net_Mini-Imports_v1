@@ -78,10 +78,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Monospac821 BT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(224, 11);
+            this.label1.Font = new System.Drawing.Font("BankGothic Md BT", 20.25F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(164, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(352, 34);
+            this.label1.Size = new System.Drawing.Size(442, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "FEEDBACK DOS CLIENTES";
             // 
@@ -121,7 +121,6 @@
             this.button2.TabIndex = 34;
             this.button2.Text = "PESQUISAR";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.UseWaitCursor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
@@ -141,14 +140,13 @@
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.Font = new System.Drawing.Font("Monospac821 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.Window;
-            this.button4.Location = new System.Drawing.Point(351, 285);
+            this.button4.Location = new System.Drawing.Point(341, 288);
             this.button4.Margin = new System.Windows.Forms.Padding(5, 5, 10, 10);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(116, 38);
+            this.button4.Size = new System.Drawing.Size(148, 38);
             this.button4.TabIndex = 4;
-            this.button4.Text = "REGIST";
+            this.button4.Text = "REGISTRAR";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.UseWaitCursor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
@@ -157,14 +155,13 @@
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.Font = new System.Drawing.Font("Monospac821 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.Window;
-            this.button3.Location = new System.Drawing.Point(552, 101);
+            this.button3.Location = new System.Drawing.Point(539, 101);
             this.button3.Margin = new System.Windows.Forms.Padding(5, 5, 10, 10);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(82, 38);
+            this.button3.Size = new System.Drawing.Size(99, 38);
             this.button3.TabIndex = 5;
-            this.button3.Text = "LIMPA";
+            this.button3.Text = "LIMPAR";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.UseWaitCursor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label5
@@ -236,7 +233,6 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1

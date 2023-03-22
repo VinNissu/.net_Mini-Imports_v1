@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(alterarFun));
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.cadastrarFuncionariosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.mini_imports_realDataSet = new mini_imports.mini_imports_realDataSet();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -55,14 +57,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.mini_imports_realDataSet = new mini_imports.mini_imports_realDataSet();
-            this.cadastrarFuncionariosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cadastrarFuncionariosTableAdapter = new mini_imports.mini_imports_realDataSetTableAdapters.cadastrarFuncionariosTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.cadastrarFuncionariosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cadastrarFuncionariosBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox7
@@ -72,6 +72,16 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(215, 20);
             this.textBox7.TabIndex = 6;
+            // 
+            // cadastrarFuncionariosBindingSource
+            // 
+            this.cadastrarFuncionariosBindingSource.DataMember = "cadastrarFuncionarios";
+            this.cadastrarFuncionariosBindingSource.DataSource = this.mini_imports_realDataSet;
+            // 
+            // mini_imports_realDataSet
+            // 
+            this.mini_imports_realDataSet.DataSetName = "mini_imports_realDataSet";
+            this.mini_imports_realDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label6
             // 
@@ -104,7 +114,6 @@
             this.button3.TabIndex = 10;
             this.button3.Text = "LIMPAR";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.UseWaitCursor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox1
@@ -227,7 +236,6 @@
             this.button5.TabIndex = 9;
             this.button5.Text = "Alterar";
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.UseWaitCursor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // textBox9
@@ -315,7 +323,6 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "VOLTAR";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
@@ -338,16 +345,6 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // mini_imports_realDataSet
-            // 
-            this.mini_imports_realDataSet.DataSetName = "mini_imports_realDataSet";
-            this.mini_imports_realDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // cadastrarFuncionariosBindingSource
-            // 
-            this.cadastrarFuncionariosBindingSource.DataMember = "cadastrarFuncionarios";
-            this.cadastrarFuncionariosBindingSource.DataSource = this.mini_imports_realDataSet;
-            // 
             // cadastrarFuncionariosTableAdapter
             // 
             this.cadastrarFuncionariosTableAdapter.ClearBeforeFill = true;
@@ -362,12 +359,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "alterarFun";
             this.Load += new System.EventHandler(this.alterarFun_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.cadastrarFuncionariosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cadastrarFuncionariosBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

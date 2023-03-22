@@ -74,7 +74,6 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "REGISTRAR";
             this.button7.UseVisualStyleBackColor = false;
-            this.button7.UseWaitCursor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label7
@@ -96,11 +95,10 @@
             this.button10.Location = new System.Drawing.Point(508, 116);
             this.button10.Margin = new System.Windows.Forms.Padding(5, 5, 10, 10);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(89, 38);
+            this.button10.Size = new System.Drawing.Size(92, 38);
             this.button10.TabIndex = 8;
-            this.button10.Text = "LIMPA";
+            this.button10.Text = "LIMPAR";
             this.button10.UseVisualStyleBackColor = false;
-            this.button10.UseWaitCursor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // textBox6
@@ -123,7 +121,6 @@
             this.button11.TabIndex = 7;
             this.button11.Text = "PESQUISAR";
             this.button11.UseVisualStyleBackColor = false;
-            this.button11.UseWaitCursor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // label6
@@ -254,7 +251,6 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
@@ -328,6 +324,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Name = "cadprod";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.cadprod_Load);

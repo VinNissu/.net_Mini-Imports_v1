@@ -16,7 +16,7 @@ namespace mini_imports
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ctrlestoq());
+            Application.Run(new menu());
         }
     }
 }

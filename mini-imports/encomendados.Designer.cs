@@ -42,21 +42,21 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.mini_imports_realDataSet = new mini_imports.mini_imports_realDataSet();
-            this.encomendarProdutosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.encomendarProdutosTableAdapter = new mini_imports.mini_imports_realDataSetTableAdapters.encomendarProdutosTableAdapter();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.encomendarProdutosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.mini_imports_realDataSet = new mini_imports.mini_imports_realDataSet();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.encomendarProdutosTableAdapter = new mini_imports.mini_imports_realDataSetTableAdapters.encomendarProdutosTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.encomendarProdutosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // button5
@@ -72,7 +72,6 @@
             this.button5.TabIndex = 8;
             this.button5.Text = "ENCOMENDAR ➜";
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.UseWaitCursor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button1
@@ -81,14 +80,13 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Monospac821 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Window;
-            this.button1.Location = new System.Drawing.Point(5, 379);
+            this.button1.Location = new System.Drawing.Point(5, 385);
             this.button1.Margin = new System.Windows.Forms.Padding(5, 5, 10, 10);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 38);
+            this.button1.Size = new System.Drawing.Size(107, 32);
             this.button1.TabIndex = 9;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
@@ -145,7 +143,6 @@
             this.button6.TabIndex = 24;
             this.button6.Text = "PESQUISAR";
             this.button6.UseVisualStyleBackColor = false;
-            this.button6.UseWaitCursor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button3
@@ -161,7 +158,6 @@
             this.button3.TabIndex = 23;
             this.button3.Text = "PESQUISAR";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.UseWaitCursor = true;
             // 
             // label4
             // 
@@ -214,29 +210,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(536, 256);
             this.dataGridView1.TabIndex = 17;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-894, -12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1852, 451);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // mini_imports_realDataSet
-            // 
-            this.mini_imports_realDataSet.DataSetName = "mini_imports_realDataSet";
-            this.mini_imports_realDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // encomendarProdutosBindingSource
-            // 
-            this.encomendarProdutosBindingSource.DataMember = "encomendarProdutos";
-            this.encomendarProdutosBindingSource.DataSource = this.mini_imports_realDataSet;
-            // 
-            // encomendarProdutosTableAdapter
-            // 
-            this.encomendarProdutosTableAdapter.ClearBeforeFill = true;
-            // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.DataPropertyName = "encomend_id";
@@ -268,6 +241,29 @@
             this.dataGridViewTextBoxColumn5.HeaderText = "cadProd_id";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             // 
+            // encomendarProdutosBindingSource
+            // 
+            this.encomendarProdutosBindingSource.DataMember = "encomendarProdutos";
+            this.encomendarProdutosBindingSource.DataSource = this.mini_imports_realDataSet;
+            // 
+            // mini_imports_realDataSet
+            // 
+            this.mini_imports_realDataSet.DataSetName = "mini_imports_realDataSet";
+            this.mini_imports_realDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(-894, -12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1852, 451);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // encomendarProdutosTableAdapter
+            // 
+            this.encomendarProdutosTableAdapter.ClearBeforeFill = true;
+            // 
             // encomendados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -283,9 +279,9 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.encomendarProdutosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

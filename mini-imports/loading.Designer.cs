@@ -34,11 +34,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblCarregando = new System.Windows.Forms.Label();
             this.pbar = new CircularProgressBar.CircularProgressBar();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -56,7 +56,7 @@
             // 
             this.panel1.Controls.Add(this.lblCarregando);
             this.panel1.Controls.Add(this.pbar);
-            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.progressBar1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -68,11 +68,13 @@
             this.lblCarregando.AutoSize = true;
             this.lblCarregando.BackColor = System.Drawing.Color.Transparent;
             this.lblCarregando.Font = new System.Drawing.Font("Humnst777 Blk BT", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCarregando.Location = new System.Drawing.Point(922, 691);
+            this.lblCarregando.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.lblCarregando.Location = new System.Drawing.Point(595, 705);
             this.lblCarregando.Name = "lblCarregando";
             this.lblCarregando.Size = new System.Drawing.Size(280, 46);
             this.lblCarregando.TabIndex = 5;
             this.lblCarregando.Text = "Carregando...";
+            this.lblCarregando.Click += new System.EventHandler(this.lblCarregando_Click);
             // 
             // pbar
             // 
@@ -84,13 +86,13 @@
             this.pbar.InnerColor = System.Drawing.Color.Transparent;
             this.pbar.InnerMargin = 2;
             this.pbar.InnerWidth = -1;
-            this.pbar.Location = new System.Drawing.Point(1204, 678);
+            this.pbar.Location = new System.Drawing.Point(865, 689);
             this.pbar.MarqueeAnimationSpeed = 2000;
             this.pbar.Name = "pbar";
             this.pbar.OuterColor = System.Drawing.Color.Black;
             this.pbar.OuterMargin = -10;
             this.pbar.OuterWidth = -10;
-            this.pbar.ProgressColor = System.Drawing.Color.Black;
+            this.pbar.ProgressColor = System.Drawing.Color.RoyalBlue;
             this.pbar.ProgressWidth = 5;
             this.pbar.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 36F);
             this.pbar.Size = new System.Drawing.Size(60, 62);
@@ -107,14 +109,15 @@
             this.pbar.Value = 100;
             this.pbar.Click += new System.EventHandler(this.pbar_Click);
             // 
-            // pictureBox1
+            // pictureBox2
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-247, -57);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1632, 887);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(-596, -108);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(2159, 1171);
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
             // 
             // progressBar1
             // 
@@ -144,7 +147,7 @@
             this.Load += new System.EventHandler(this.loading_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,6 +160,6 @@
         private System.Windows.Forms.Timer timer1;
         private CircularProgressBar.CircularProgressBar pbar;
         private System.Windows.Forms.Label lblCarregando;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

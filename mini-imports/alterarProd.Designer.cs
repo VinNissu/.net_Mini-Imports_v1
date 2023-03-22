@@ -34,8 +34,11 @@
             this.label7 = new System.Windows.Forms.Label();
             this.button10 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.cadastrarFornecedoresBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.mini_imports_realDataSet = new mini_imports.mini_imports_realDataSet();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.cadastrarProdutosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -50,17 +53,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.mini_imports_realDataSet = new mini_imports.mini_imports_realDataSet();
-            this.cadastrarProdutosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cadastrarProdutosTableAdapter = new mini_imports.mini_imports_realDataSetTableAdapters.CadastrarProdutosTableAdapter();
-            this.cadastrarFornecedoresBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cadastrarFornecedoresTableAdapter = new mini_imports.mini_imports_realDataSetTableAdapters.cadastrarFornecedoresTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.cadastrarFornecedoresBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cadastrarProdutosBindingSource)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cadastrarProdutosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cadastrarFornecedoresBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // button7
@@ -76,7 +76,6 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "ATUALIZAR";
             this.button7.UseVisualStyleBackColor = false;
-            this.button7.UseWaitCursor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label7
@@ -102,7 +101,6 @@
             this.button10.TabIndex = 8;
             this.button10.Text = "LIMPAR";
             this.button10.UseVisualStyleBackColor = false;
-            this.button10.UseWaitCursor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // textBox6
@@ -113,6 +111,16 @@
             this.textBox6.Size = new System.Drawing.Size(215, 20);
             this.textBox6.TabIndex = 5;
             this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            // 
+            // cadastrarFornecedoresBindingSource
+            // 
+            this.cadastrarFornecedoresBindingSource.DataMember = "cadastrarFornecedores";
+            this.cadastrarFornecedoresBindingSource.DataSource = this.mini_imports_realDataSet;
+            // 
+            // mini_imports_realDataSet
+            // 
+            this.mini_imports_realDataSet.DataSetName = "mini_imports_realDataSet";
+            this.mini_imports_realDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label6
             // 
@@ -132,6 +140,11 @@
             this.textBox5.Size = new System.Drawing.Size(215, 20);
             this.textBox5.TabIndex = 4;
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // cadastrarProdutosBindingSource
+            // 
+            this.cadastrarProdutosBindingSource.DataMember = "CadastrarProdutos";
+            this.cadastrarProdutosBindingSource.DataSource = this.mini_imports_realDataSet;
             // 
             // panel1
             // 
@@ -249,7 +262,6 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "VOLTAR";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
@@ -298,24 +310,9 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.UseWaitCursor = true;
             // 
-            // mini_imports_realDataSet
-            // 
-            this.mini_imports_realDataSet.DataSetName = "mini_imports_realDataSet";
-            this.mini_imports_realDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // cadastrarProdutosBindingSource
-            // 
-            this.cadastrarProdutosBindingSource.DataMember = "CadastrarProdutos";
-            this.cadastrarProdutosBindingSource.DataSource = this.mini_imports_realDataSet;
-            // 
             // cadastrarProdutosTableAdapter
             // 
             this.cadastrarProdutosTableAdapter.ClearBeforeFill = true;
-            // 
-            // cadastrarFornecedoresBindingSource
-            // 
-            this.cadastrarFornecedoresBindingSource.DataMember = "cadastrarFornecedores";
-            this.cadastrarFornecedoresBindingSource.DataSource = this.mini_imports_realDataSet;
             // 
             // cadastrarFornecedoresTableAdapter
             // 
@@ -331,13 +328,13 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "alterarProd";
             this.Load += new System.EventHandler(this.alterarProd_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.cadastrarFornecedoresBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cadastrarProdutosBindingSource)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cadastrarProdutosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cadastrarFornecedoresBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

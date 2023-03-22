@@ -45,9 +45,17 @@ namespace mini_imports
         private void alterarProd_Load(object sender, EventArgs e)
         {
             // TODO: esta linha de código carrega dados na tabela 'mini_imports_realDataSet.cadastrarFornecedores'. Você pode movê-la ou removê-la conforme necessário.
-            this.cadastrarFornecedoresTableAdapter.Fill(this.mini_imports_realDataSet.cadastrarFornecedores);
+            this.cadastrarProdutosTableAdapter.Fill(this.mini_imports_realDataSet.CadastrarProdutos);
             // TODO: esta linha de código carrega dados na tabela 'mini_imports_realDataSet.CadastrarProdutos'. Você pode movê-la ou removê-la conforme necessário.
             this.cadastrarProdutosTableAdapter.Fill(this.mini_imports_realDataSet.CadastrarProdutos);
+
+
+            /*this.cadastrarProdutosTableAdapter.Fill(this.mini_imports_realDataSet.CadastrarProdutos);
+            if (Class1.codigo == "")//
+            { cadastrarProdutosBindingSource.AddNew(); }//
+            else//
+            { cadastrarProdutosBindingSource.Filter = string.Format("cadProd_id={0}", Class1.codigo); }// textBox1.Text); } */
+
         }
 
         private void button7_Click(object sender, EventArgs e)

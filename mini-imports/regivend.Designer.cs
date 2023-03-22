@@ -37,6 +37,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.registroVendasBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.mini_imports_realDataSet = new mini_imports.mini_imports_realDataSet();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -46,14 +48,12 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.mini_imports_realDataSet = new mini_imports.mini_imports_realDataSet();
-            this.registroVendasBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.registroVendasTableAdapter = new mini_imports.mini_imports_realDataSetTableAdapters.registroVendasTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.registroVendasBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -111,7 +111,6 @@
             this.button4.TabIndex = 6;
             this.button4.Text = "PESQUISAR";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.UseWaitCursor = true;
             // 
             // button3
             // 
@@ -126,7 +125,6 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "LIMPAR";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.UseWaitCursor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
@@ -142,7 +140,6 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "REGISTRAR";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.UseWaitCursor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
@@ -152,6 +149,16 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(215, 20);
             this.textBox1.TabIndex = 3;
+            // 
+            // registroVendasBindingSource
+            // 
+            this.registroVendasBindingSource.DataMember = "registroVendas";
+            this.registroVendasBindingSource.DataSource = this.mini_imports_realDataSet;
+            // 
+            // mini_imports_realDataSet
+            // 
+            this.mini_imports_realDataSet.DataSetName = "mini_imports_realDataSet";
+            this.mini_imports_realDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label5
             // 
@@ -230,7 +237,6 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
@@ -243,16 +249,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(775, 10);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // mini_imports_realDataSet
-            // 
-            this.mini_imports_realDataSet.DataSetName = "mini_imports_realDataSet";
-            this.mini_imports_realDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // registroVendasBindingSource
-            // 
-            this.registroVendasBindingSource.DataMember = "registroVendas";
-            this.registroVendasBindingSource.DataSource = this.mini_imports_realDataSet;
             // 
             // registroVendasTableAdapter
             // 
@@ -272,9 +268,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.registroVendasBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

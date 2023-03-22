@@ -79,7 +79,6 @@
             this.button5.TabIndex = 9;
             this.button5.Text = "CADASTRAR";
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.UseWaitCursor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // textBox9
@@ -181,7 +180,6 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
@@ -269,7 +267,6 @@
             this.button3.TabIndex = 10;
             this.button3.Text = "LIMPAR";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.UseWaitCursor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
@@ -285,7 +282,6 @@
             this.button2.TabIndex = 11;
             this.button2.Text = "PESQUISAR";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.UseWaitCursor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1

@@ -33,6 +33,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -54,7 +55,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.cadastrarFuncionariosTableAdapter = new mini_imports.mini_imports_realDataSetTableAdapters.cadastrarFuncionariosTableAdapter();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cadastrarFuncionariosBindingSource)).BeginInit();
@@ -84,7 +84,6 @@
             this.button2.TabIndex = 14;
             this.button2.Text = "PESQUISAR";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.UseWaitCursor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel1
@@ -105,6 +104,21 @@
             this.panel1.TabIndex = 15;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.Font = new System.Drawing.Font("Monospac821 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.Window;
+            this.button5.Location = new System.Drawing.Point(619, 375);
+            this.button5.Margin = new System.Windows.Forms.Padding(5, 5, 10, 10);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(177, 38);
+            this.button5.TabIndex = 23;
+            this.button5.Text = "Deletar";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.RoyalBlue;
@@ -118,7 +132,6 @@
             this.button4.TabIndex = 19;
             this.button4.Text = "Alterar";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.UseWaitCursor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button1
@@ -134,7 +147,6 @@
             this.button1.TabIndex = 18;
             this.button1.Text = "PESQUISAR";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // label2
@@ -283,28 +295,11 @@
             this.button3.TabIndex = 19;
             this.button3.Text = "VOLTAR";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.UseWaitCursor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // cadastrarFuncionariosTableAdapter
             // 
             this.cadastrarFuncionariosTableAdapter.ClearBeforeFill = true;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.Font = new System.Drawing.Font("Monospac821 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.Window;
-            this.button5.Location = new System.Drawing.Point(619, 375);
-            this.button5.Margin = new System.Windows.Forms.Padding(5, 5, 10, 10);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(177, 38);
-            this.button5.TabIndex = 23;
-            this.button5.Text = "Deletar";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.UseWaitCursor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // pesquisafun
             // 

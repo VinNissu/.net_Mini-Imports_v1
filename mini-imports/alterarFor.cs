@@ -41,6 +41,12 @@ namespace mini_imports
             // TODO: esta linha de código carrega dados na tabela 'mini_imports_realDataSet.cadastrarFuncionarios'. Você pode movê-la ou removê-la conforme necessário.
             this.cadastrarFornecedoresTableAdapter.Fill(this.mini_imports_realDataSet.cadastrarFornecedores);
 
+          /*  this.cadastrarFornecedoresTableAdapter.Fill(this.mini_imports_realDataSet.cadastrarFornecedores);
+            if (Class1.codigo == "")//
+            { cadastrarFornecedoresBindingSource.AddNew(); }//
+            else//
+            { cadastrarFornecedoresBindingSource.Filter = string.Format("cadFor_id={0}", Class1.codigo); }*/
+
         }
 
         private void button5_Click(object sender, EventArgs e)

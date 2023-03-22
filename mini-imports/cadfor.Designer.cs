@@ -37,24 +37,24 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cadastrarFornecedoresTableAdapter = new mini_imports.mini_imports_realDataSetTableAdapters.cadastrarFornecedoresTableAdapter();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button7 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.cadastrarFornecedoresTableAdapter = new mini_imports.mini_imports_realDataSetTableAdapters.cadastrarFornecedoresTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.cadastrarFornecedoresBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mini_imports_realDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -85,7 +85,6 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "LIMPAR";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.UseWaitCursor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
@@ -101,7 +100,6 @@
             this.button2.TabIndex = 8;
             this.button2.Text = "PESQUISAR";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.UseWaitCursor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
@@ -117,7 +115,6 @@
             this.button1.TabIndex = 12;
             this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
@@ -160,30 +157,6 @@
             this.panel1.Size = new System.Drawing.Size(776, 429);
             this.panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("BankGothic Md BT", 26.25F);
-            this.label1.Location = new System.Drawing.Point(101, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(609, 36);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "CADASTRAR FORNECEDORES";
-            // 
-            // cadastrarFornecedoresTableAdapter
-            // 
-            this.cadastrarFornecedoresTableAdapter.ClearBeforeFill = true;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-713, -1);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1842, 451);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.RoyalBlue;
@@ -197,18 +170,7 @@
             this.button7.TabIndex = 7;
             this.button7.Text = "REGISTRAR";
             this.button7.UseVisualStyleBackColor = false;
-            this.button7.UseWaitCursor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label7.Location = new System.Drawing.Point(243, 261);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 15);
-            this.label7.TabIndex = 41;
-            this.label7.Text = "EMAIL";
             // 
             // label8
             // 
@@ -220,6 +182,32 @@
             this.label8.TabIndex = 43;
             this.label8.Text = "REPRESENTANTE";
             // 
+            // textBox7
+            // 
+            this.textBox7.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cadastrarFornecedoresBindingSource, "cadFor_repre", true));
+            this.textBox7.Location = new System.Drawing.Point(286, 285);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(215, 20);
+            this.textBox7.TabIndex = 6;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label7.Location = new System.Drawing.Point(243, 261);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(41, 15);
+            this.label7.TabIndex = 41;
+            this.label7.Text = "EMAIL";
+            // 
+            // textBox6
+            // 
+            this.textBox6.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cadastrarFornecedoresBindingSource, "cadFor_email", true));
+            this.textBox6.Location = new System.Drawing.Point(286, 259);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(215, 20);
+            this.textBox6.TabIndex = 5;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -229,6 +217,22 @@
             this.label6.Size = new System.Drawing.Size(65, 15);
             this.label6.TabIndex = 39;
             this.label6.Text = "TELEFONE";
+            // 
+            // textBox5
+            // 
+            this.textBox5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cadastrarFornecedoresBindingSource, "cadFor_fone", true));
+            this.textBox5.Location = new System.Drawing.Point(286, 229);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(215, 20);
+            this.textBox5.TabIndex = 4;
+            // 
+            // textBox1
+            // 
+            this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cadastrarFornecedoresBindingSource, "cadFor_ender", true));
+            this.textBox1.Location = new System.Drawing.Point(286, 203);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(215, 20);
+            this.textBox1.TabIndex = 3;
             // 
             // label5
             // 
@@ -270,13 +274,13 @@
             this.label2.TabIndex = 30;
             this.label2.Text = "RAZÃO SOCIAL";
             // 
-            // textBox2
+            // textBox4
             // 
-            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cadastrarFornecedoresBindingSource, "cadFor_rzSocial", true));
-            this.textBox2.Location = new System.Drawing.Point(286, 119);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(215, 20);
-            this.textBox2.TabIndex = 0;
+            this.textBox4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cadastrarFornecedoresBindingSource, "cadFor_inscEstadu", true));
+            this.textBox4.Location = new System.Drawing.Point(286, 174);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(215, 20);
+            this.textBox4.TabIndex = 2;
             // 
             // textBox3
             // 
@@ -286,45 +290,37 @@
             this.textBox3.Size = new System.Drawing.Size(215, 20);
             this.textBox3.TabIndex = 1;
             // 
-            // textBox4
+            // textBox2
             // 
-            this.textBox4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cadastrarFornecedoresBindingSource, "cadFor_inscEstadu", true));
-            this.textBox4.Location = new System.Drawing.Point(286, 174);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(215, 20);
-            this.textBox4.TabIndex = 2;
+            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cadastrarFornecedoresBindingSource, "cadFor_rzSocial", true));
+            this.textBox2.Location = new System.Drawing.Point(286, 119);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(215, 20);
+            this.textBox2.TabIndex = 0;
             // 
-            // textBox1
+            // label1
             // 
-            this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cadastrarFornecedoresBindingSource, "cadFor_ender", true));
-            this.textBox1.Location = new System.Drawing.Point(286, 203);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(215, 20);
-            this.textBox1.TabIndex = 3;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("BankGothic Md BT", 26.25F);
+            this.label1.Location = new System.Drawing.Point(101, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(609, 36);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "CADASTRAR FORNECEDORES";
             // 
-            // textBox5
+            // pictureBox2
             // 
-            this.textBox5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cadastrarFornecedoresBindingSource, "cadFor_fone", true));
-            this.textBox5.Location = new System.Drawing.Point(286, 229);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(215, 20);
-            this.textBox5.TabIndex = 4;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(-713, -1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1842, 451);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // textBox6
+            // cadastrarFornecedoresTableAdapter
             // 
-            this.textBox6.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cadastrarFornecedoresBindingSource, "cadFor_email", true));
-            this.textBox6.Location = new System.Drawing.Point(286, 259);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(215, 20);
-            this.textBox6.TabIndex = 5;
-            // 
-            // textBox7
-            // 
-            this.textBox7.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.cadastrarFornecedoresBindingSource, "cadFor_repre", true));
-            this.textBox7.Location = new System.Drawing.Point(286, 285);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(215, 20);
-            this.textBox7.TabIndex = 6;
+            this.cadastrarFornecedoresTableAdapter.ClearBeforeFill = true;
             // 
             // cadfor
             // 

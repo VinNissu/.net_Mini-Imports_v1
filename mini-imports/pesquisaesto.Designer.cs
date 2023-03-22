@@ -38,10 +38,7 @@
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.controleDeEstoqueBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.mini_imports_realDataSet = new mini_imports.mini_imports_realDataSet();
             this.label1 = new System.Windows.Forms.Label();
@@ -72,7 +69,6 @@
             this.button1.TabIndex = 18;
             this.button1.Text = "PESQUISAR";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
@@ -101,15 +97,12 @@
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8});
+            this.dataGridViewTextBoxColumn6});
             this.dataGridView1.DataSource = this.controleDeEstoqueBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(98, 122);
+            this.dataGridView1.Location = new System.Drawing.Point(298, 118);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(844, 234);
+            this.dataGridView1.Size = new System.Drawing.Size(539, 234);
             this.dataGridView1.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
@@ -137,29 +130,11 @@
             this.dataGridViewTextBoxColumn4.HeaderText = "ctrlEstoq_dataEntr";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "ctrlEstoq_rzSocial";
-            this.dataGridViewTextBoxColumn5.HeaderText = "ctrlEstoq_rzSocial";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            // 
             // dataGridViewTextBoxColumn6
             // 
             this.dataGridViewTextBoxColumn6.DataPropertyName = "ctrlEstoq_uni";
             this.dataGridViewTextBoxColumn6.HeaderText = "ctrlEstoq_uni";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "cadProd_id";
-            this.dataGridViewTextBoxColumn7.HeaderText = "cadProd_id";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "cadFor_id";
-            this.dataGridViewTextBoxColumn8.HeaderText = "cadFor_id";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             // 
             // controleDeEstoqueBindingSource
             // 
@@ -210,7 +185,6 @@
             this.button5.TabIndex = 24;
             this.button5.Text = "Deletar";
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.UseWaitCursor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button3
@@ -226,7 +200,6 @@
             this.button3.TabIndex = 21;
             this.button3.Text = "MENU";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.UseWaitCursor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox1
@@ -243,14 +216,13 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Font = new System.Drawing.Font("Monospac821 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Window;
-            this.button2.Location = new System.Drawing.Point(699, 14);
+            this.button2.Location = new System.Drawing.Point(695, 14);
             this.button2.Margin = new System.Windows.Forms.Padding(5, 5, 10, 10);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(121, 38);
             this.button2.TabIndex = 14;
             this.button2.Text = "PESQUISAR";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.UseWaitCursor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox2

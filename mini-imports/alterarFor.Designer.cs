@@ -134,7 +134,6 @@
             this.button5.TabIndex = 44;
             this.button5.Text = "Alterar";
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.UseWaitCursor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label7
@@ -186,7 +185,6 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "LIMPAR";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.UseWaitCursor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox1
@@ -274,7 +272,6 @@
             this.button1.TabIndex = 12;
             this.button1.Text = "VOLTAR";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.UseWaitCursor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
